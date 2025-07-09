@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="images/digit.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="index.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <title>Digit Recognizer</title>
+  </head>
+  <body>
+    <h1>Draw a Digit (0-9)</h1>
+    <canvas id="canvas" width="280" height="280"></canvas>
+    <button onclick="predict()">Classify Digit</button>
+    <button onclick="clearCanvas()">Clear</button>
+    <div id="prediction">Prediction: ?</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.13.0/dist/tf.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
