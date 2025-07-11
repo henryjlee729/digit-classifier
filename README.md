@@ -12,7 +12,7 @@ This is a simple web-based digit recognition app using a trained **Keras model**
 
 ## Technologies Used
 
-- Python 🐍
+- Python
 - TensorFlow / Keras
 - Flask
 - HTML + CSS + JavaScript (frontend)
