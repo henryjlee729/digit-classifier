@@ -22,7 +22,7 @@ function draw(e) {
     const x = e.clientX - rect.left; // Converts mouse x-coordinates to canvas x-coordinates
     const y = e.clientY - rect.top; // Converts mouse y-coordinates to canvas y-coordinates
 
-    ctx.lineWidth = 13; // Sets the line thickness
+    ctx.lineWidth = 10; // Sets the line thickness
     ctx.lineCap = "round"; // Sets the line end caps
     ctx.strokeStyle = "black"; // Sets the line color
 
