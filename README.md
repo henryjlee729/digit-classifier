@@ -1,7 +1,8 @@
 # MNIST Digit Classifier
 
-This is a simple web-based digit recognition app using a trained **Keras model** and **Flask** for the backend. Users can draw a digit (0–9) in the browser, and the model will predict the number in real time.
+This is a simple web-based digit recognition app using a trained **Keras model** and **Flask** for the backend. Users can draw a digit (0–9) in the browser, and the model will predict the number in real time.  This is an introductory project for me to explore neural networks and deep learning for a common problem.
 
+Model taken from [here](https://github.com/ZahraMohit/mnist-digit-classification).
 
 ## Features
 
