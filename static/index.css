@@ -1,27 +1,26 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    font-family: 'Montserrat', sans-serif; /* Sets the font */
+    display: flex; /* Makes the content fluid */
+    flex-direction: column; /* Aligns the content from top to bottom */
+    align-items: center; /* Aligns the content horizontally */
+    justify-content: center; /* Aligns the content vertically */
+    height: 100vh; /* Makes the body take up 100% of the viewport height */
 }
 
 canvas {
-    border: 2px solid #333;
-    background-color: white;
-    cursor: crosshair;
+    border: 2px solid #333; /* Sets up the border */
+    background-color: white; /* Sets the background color as white */
+    cursor: crosshair; /* The cursor changes to a cross */
 }
 
 button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+    margin-top: 10px; /* Adds 10 pixels of space above the button */
+    padding: 10px 20px; /* Adds space in the button horizontally and vertically */
+    font-size: 16px; /* Sets the size of the font */
+    cursor: pointer; /* Changes the mouse cursor to a hand icon */
 }
 
 #prediction {
-    margin-top: 15px;
-    font-size: 24px;
-    font-weight: bold;
+    margin-top: 15px; /* Adds 15 pixels of space above the button */
+    font-size: 24px; /* Sets the size of the font */
 }
